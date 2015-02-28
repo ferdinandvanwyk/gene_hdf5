@@ -11,4 +11,4 @@ tpar = f['/mom_Ions/T_par']
 test = tpar['0000000000']
 print('time = ', test.attrs['time'])
 print(test[0,0,0])
-print(f['/mom_Ions/T_par'].items())
+print(np.array(f['/mom_Ions/time']))
